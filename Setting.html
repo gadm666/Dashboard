@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="description" content=" " />
+
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<body>
+
+    <div class="page d-felx">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c mt-0">M GAD</h3>
+            <ul>
+                <li>
+                    <a href="index.html" class=" d-felx align-center c-balck rad-6 p-20 ">
+                        <i class=" fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Setting.html" class="active d-felx align-center c-balck rad-6 p-20 ">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Profile.html" class=" d-felx align-center c-balck rad-6 p-20 ">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="PLan.html" class=" d-felx align-center c-balck rad-6 p-20 ">
+                        <i class="fa-sharp fa-solid fa-umbrella"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class=" content w-full">
+            <div class="head bg-white between-felx p-15">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="inter a kay">
+                </div>
+                <div class="icons d-felx align-center">
+                    <span class="notifaction p-relative ">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="image/avatar.png" alt="">
+                </div>
+            </div>
+            <h1 class="p-relative">Settings</h1>
+            <div class="Settings-page m-20 d-grid gap-20">
+                <div class="first-box p-20 bg-white rad-10 ">
+                    <div class="">
+                        <h2 class="fw-bold mb-10">Site Control</h2>
+                        <p class="c-gray fs-14 ">Control The Website If There IS Maintenace</p>
+                    </div>
+                    <div class="">
+                        <div class="d-felx ">
+                            <div class="fx-1">
+                                <h3 class="fw-bold mb-10">Web Site Control</h2>
+                                    <p class="c-gray fs-14 ">Open/close Website And Type The Raeson </p>
+                            </div>
+                            <div class="">
+                                <label for="">
+                                    <input type="checkbox" class="toggle-checkbox " checked>
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="d-block text-area">
+                            <textarea class="mb-20 p-15 bg-eee w-full b-none rad-6 d-block"
+                                placeholder="Close Message Content"></textarea>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="Second-box p-20 bg-white rad-10">
+                    <h2 class="fw-bold mb-10">General Info</h2>
+                    <p class="c-gray fs-14 mb-20">General Information About Your Account</p>
+                    <div class="name">
+                        <label class="d-block c-gray mb-10">First Name</label>
+                        <input class="mb-20" type="name" placeholder="First Name" required>
+                    </div>
+                    <div class="name">
+                        <label class="d-block c-gray mb-10">Last Name</label>
+                        <input class="mb-20" type="name" placeholder="Last Name" required>
+                    </div>
+                    <div class="Email p-relative">
+                        <label class="d-block c-gray mb-10">Email</label>
+                        <input class="" type="email" placeholder="0@nn.sa" required>
+                        <a href="">Change</a>
+
+                    </div>
+                </div>
+                <div class="thrd-box p-20 bg-white rad-10">
+                    <h2 class="fw-bold mb-10">Security Info</h2>
+                    <p class="c-gray fs-14 mb-20">Security Information About Your Account</p>
+                    <div class="pass d-felx">
+                        <div class="fx-1">
+                            <h4 class="mb-20">Password</h4>
+                            <p class="c-gray fs-14">Last Change On 25/10/2021</p>
+                        </div>
+                        <div class="btn-shap">
+                            <p class=" btn-shape bg-blue c-white">Change</p>
+                        </div>
+                    </div>
+                    <div class="Control d-felx">
+                        <div class="fx-1">
+                            <h4 class="mb-20">Tow-Factor-Authentication</h4>
+                            <p class="c-gray fs-14">Enable/Disable The Feature</p>
+                        </div>
+                        <DIV class="switch">
+
+                        </DIV>
+                    </div>
+                    <div class="Devices d-felx">
+                        <div class="fx-1">
+                            <h4 class="mb-20">Devices</h4>
+                            <p class="c-gray fs-14">Check The Login Devices List</p>
+                        </div>
+                        <DIV class="">
+                            <p class="btn-shape bg-eee mt-30">Divices</p>
+                        </DIV>
+                    </div>
+                </div>
+                <div class="fourth-box p-20 bg-white rad-10">
+                    <h2 class="fw-bold mb-10">Social Info</h2>
+                    <p class="c-gray fs-14 mb-20">Social media information</p>
+                    <div class="content d-felx between-felx bg-blue2 p-10 rad-6 ov-flow mb-10">
+                        <div class="right d-felx p-relative ">
+                            <i class="fa-brands fa-twitter "></i>
+                            <p class="c-blue fw-bold">200 folower</p>
+                        </div>
+                        <div class="">
+                            <p class="btn-shape bg-blue c-white">Follow</p>
+                        </div>
+                    </div>
+                    <div class="content d-felx between-felx bg-blue2 p-10 rad-6 ov-flow mb-10">
+                        <div class="right d-felx p-relative">
+                            <i class="fa-brands fa-facebook"></i>
+                            <p class="c-blue fw-bold">500 folower</p>
+                        </div>
+                        <div class="">
+                            <p class="btn-shape bg-blue c-white">Like</p>
+                        </div>
+                    </div>
+                    <div class="content d-felx between-felx bg-blue2 p-10 rad-6 ov-flow mb-10">
+                        <div class="right d-felx p-relative">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <p class="c-blue fw-bold">5 folower</p>
+                        </div>
+                        <div class="">
+                            <p class="btn-shape bg-blue c-white">Follow</p>
+                        </div>
+                    </div>
+                    <div class="content d-felx between-felx bg-blue2 p-10 rad-6 ov-flow mb-10">
+                        <div class="right d-felx p-relative">
+                            <i class="fa-brands fa-youtube "></i>
+                            <p class=" fw-bold">60 folower</p>
+                        </div>
+                        <div class="">
+                            <p class="btn-shape bg-blue c-white">Subscribe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fifth-box p-20 bg-white rad-10">
+                    <h2 class="fw-bold mb-10">Widgets Control</h2>
+                    <p class="c-gray fs-14 mb-10">Show/Hide Widgets</p>
+                    <div class="content d-felx mb-10">
+                        <input type="checkbox" checked>
+                        <p class="p-10">Quick Draft</p>
+                    </div>
+                    <div class="content d-felx ">
+                        <input type="checkbox" checked>
+                        <p class="p-10">Yearly Targets</p>
+                    </div>
+                    <div class="content d-felx ">
+                        <input type="checkbox" checked>
+                        <p class="p-10">Tickets Statistics</p>
+                    </div>
+                    <div class="content d-felx ">
+                        <input type="checkbox" checked>
+                        <p class="p-10">Last News</p>
+                    </div>
+                    <div class="content d-felx ">
+                        <input type="checkbox">
+                        <p class="p-10">Latest Tasks</p>
+                    </div>
+                    <div class="content d-felx ">
+                        <input type="checkbox" checked>
+                        <p class="p-10">Top Search Items</p>
+                    </div>
+                </div>
+                <div class="sex-box p-20 bg-white rad-10">
+                    <h2 class="fw-bold mb-10">Backup Manager</h2>
+                    <p class="c-gray fs-14 mb-10">Controle Backup Time And Location</p>
+                    <div class="content1">
+                        <div class="d-felx mb-s25">
+                            <input type="radio" checked>
+                            <p class="p-10">Daily</p>
+                        </div>
+                        <div class="d-felx mb-s25">
+                            <input type="radio">
+                            <p class="p-10">Weekly</p>
+                        </div>
+                        <div class="d-felx mb-s25">
+                            <input type="radio">
+                            <p class="p-10">monthly</p>
+                        </div>
+                    </div>
+                    <div class="content2 d-felx between-felx p-10">
+                        <div class="Same txt-c p-10">
+                            <i class="fa-sharp fa-solid fa-sliders"></i>
+                            <p>Megaman</p>
+                        </div>
+                        <div class="Same p-10 txt-c">
+                            <i class="fa-sharp fa-solid fa-sliders"></i>
+                            <p>Mohamed</p>
+                        </div>
+                        <div class="Same txt-c p-10">
+                            <i class="fa-sharp fa-solid fa-sliders"></i>
+                            <p>Sigma</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</body>
+
+</html>
